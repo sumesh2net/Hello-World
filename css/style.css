@@ -125,3 +125,10 @@ a {
   padding: 0;
   margin: 0;
 }
+.full-width {
+  width: 100%;
+}
+.swiss-nav-header {
+  background-color: #31456D;
+  padding: 10px 10px 10px 10px;
+}
