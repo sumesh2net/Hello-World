@@ -1,141 +1,135 @@
 ﻿<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title></title>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE = edge" />
     <meta name="viewport" content="width = device-width, initial-scale = 1" />
-
-    <title>My Project</title>
-
     <link href="../assets/bootstrap-3.7.0/dist/css/bootstrap.min.css" rel="stylesheet" media="screen" />
-    <!--<link href="../External/bootstrap-3.2.0/docs/examples/dashboard/dashboard.css" rel="stylesheet" />-->
     <link href="../css/style.css?v=2313" rel="stylesheet" />
 </head>
 <body>
     <div class="container-fluid">
+
         <div class="row">
             <div class="col-xs-12">
                 <header class="swiss-nav-header">
                     <div class="row">
                         <div class="col-xs-1">
-                            <button class="btn btn-default pull-left"><span class="glyphicon glyphicon-menu-left"></span></button>
+                            <button class="btn btn-default pull-left"><span class="glyphicon glyphicon-remove"></span></button>
                         </div>
                         <div class="col-xs-10 text-center">
-                            NOTFALLKONTAKT
+                            <h4>NOTFALLKONTAKT</h4>
                         </div>
                         <div class="col-xs-1">
-                            <button class="btn btn-default pull-right"><span class="glyphicon glyphicon-menu-right"></span></button>
+                            <button class="btn btn-default pull-right"><span class="glyphicon glyphicon-ok"></span></button>
                         </div>
                     </div>
                 </header>
             </div>
         </div>
-
-        <div class="form-group row">
-            <label class="col-xs-2 text-right  col-form-label">Notfall</label>
-            <div class="col-xs-10">
-                <input class="form-control" type="text" placeholder="SMS senden" />
+        <form class="form-horizontal">
+            <div class="form-group row">
+                <label class="col-xs-2 text-right control-label">Notfall</label>
+                <div class="col-xs-10">
+                    <input class="form-control" type="text" placeholder="SMS senden" />
+                </div>
             </div>
-        </div>
-
-        <div class="form-group row">
-            <div class="col-xs-10">
-                Im Notfall diesen Notfallkontakt per SMS informieren
-            </div>
-        </div>
-
-        <div class="form-group row">
-            <label class="col-xs-2 text-right  col-form-label">Beziehung</label>
-            <div class="col-xs-10">
-                <select class="form-control">
-
-                </select>
-            </div>
-        </div>
-
-        <div class="form-group row">
-            <label class="col-xs-2 text-right  col-form-label">Titel</label>
-            <div class="col-xs-10">
-                <select class="form-control">
-                    <option value="Dr."></option>
-                </select>
-            </div>
-        </div>
 
             <div class="form-group row">
-            <label class="col-xs-2 text-right  col-form-label">Vorname</label>
-            <div class="col-xs-10">
-                <input class="form-control" type="text" placeholder="Peter" />
-            </div>
-        </div>
-       
-                <div class="form-group row">
-            <label class="col-xs-2 text-right  col-form-label">Nachname</label>
-            <div class="col-xs-10">
-                <input class="form-control" type="text" placeholder="Schludderer" />
-            </div>
-        </div>
-
-        <div class="form-group row">
-            <label class="col-xs-2 text-right  col-form-label">Telefon</label>
-            <div class="col-xs-10">
-                <input class="form-control" type="tel" placeholder="7889989498" />
-            </div>
-        </div>
-
-        <div class="form-group row">
-            <label class="col-xs-2 text-right  col-form-label">MobilNr</label>
-            <div class="col-xs-10">
-                <input class="form-control" type="tel" placeholder="7889989498" />
-            </div>
-        </div>
-
-       <div class="form-group row">
-            <label class="col-xs-2 text-right  col-form-label">E-Mail</label>
-            <div class="col-xs-10">
-                <input class="form-control" type="email" placeholder="sss@dddd.com" />
-            </div>
-        </div>
-
-        <div class="form-group row">
-            <label class="col-xs-2 text-right  col-form-label">State</label>
-            <div class="col-xs-10">
-                <input class="form-control" type="text" placeholder="Munchner Stabe 14b" />
-            </div>
-        </div>
-
-        <div class="form-group row">
-            <label class="col-xs-2 text-right  col-form-label">PLZ</label>
-            <div class="col-xs-10">
-                <input class="form-control" type="text" placeholder="Haushausen" />
-            </div>
-        </div>
-
-        <div class="form-group row">
-            <label class="col-xs-2 text-right  col-form-label">Ort</label>
-            <div class="col-xs-10">
-                <input class="form-control" type="text" placeholder="Ort" />
-            </div>
-        </div>
-
-        <div class="form-group row">
-            <label class="col-xs-2 text-right  col-form-label">Ort</label>
-            <div class="col-xs-offset-2 col-xs-10">
-                <select >
-                    <option value="Dutch"></option>
-                </select>
-            </div>
-        </div>
-
-        <div class="row">
-
-            <div class="col-xs-12">
-                <button class="btn btn-danger full-width">LOSCHEN</button>
+                <div class="col-xs-offset-2 col-xs-10">
+                    Im Notfall diesen Notfallkontakt per SMS informieren
+                </div>
             </div>
 
-        </div>
+            <div class="form-group row">
+                <label class="col-xs-2 text-right control-label">Beziehung</label>
+                <div class="col-xs-10">
+                    <select class="form-control">
+                    </select>
+                </div>
+            </div>
 
+            <div class="form-group row">
+                <label class="col-xs-2 text-right control-label">Titel</label>
+                <div class="col-xs-10">
+                    <select class="form-control">
+                        <option value="Dr."></option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label class="col-xs-2 text-right control-label">Vorname</label>
+                <div class="col-xs-10">
+                    <input class="form-control" type="text" placeholder="Peter" />
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label class="col-xs-2 text-right control-label">Nachname</label>
+                <div class="col-xs-10">
+                    <input class="form-control" type="text" placeholder="Schludderer" />
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label class="col-xs-2 text-right control-label">Telefon</label>
+                <div class="col-xs-10">
+                    <input class="form-control" type="tel" placeholder="7889989498" />
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label class="col-xs-2 text-right control-label">MobilNr</label>
+                <div class="col-xs-10">
+                    <input class="form-control" type="tel" placeholder="7889989498" />
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label class="col-xs-2 text-right control-label">E-Mail</label>
+                <div class="col-xs-10">
+                    <input class="form-control" type="email" placeholder="sss@dddd.com" />
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label class="col-xs-2 text-right control-label">State</label>
+                <div class="col-xs-10">
+                    <input class="form-control" type="text" placeholder="Munchner Stabe 14b" />
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label class="col-xs-2 text-right control-label">PLZ</label>
+                <div class="col-xs-10">
+                    <input class="form-control" type="text" placeholder="Haushausen" />
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label class="col-xs-2 text-right control-label">Ort</label>
+                <div class="col-xs-10">
+                    <input class="form-control" type="text" placeholder="Ort" />
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <div class="col-xs-offset-2 col-xs-10">
+                    <select class="form-control">
+                        <option value="Dutch"></option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-12">
+                    <button class="btn btn-danger full-width">LOSCHEN</button>
+                </div>
+            </div>
+        </form>
+        <br />
+        <br />
     </div>
 
 </body>

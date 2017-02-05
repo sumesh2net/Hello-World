@@ -1,13 +1,50 @@
-﻿body {
+﻿body.swiss-finder {
+    background-image: url(../images/matterhorn-background.png);
     /*color: whitesmoke;*/
-}
-
-a {
-    color: white;
 }
 
 @import 'layout.less';
 @import 'sidenavbar.less';
 @import 'startpage.less';
 @import 'finder-3b2.less';
-@import 'screen-1.less';
+@import 'FINDERS_ADD FINDER.less';
+@import 'account.less';
+@import 'swiss-icon.less';
+
+.full-width{
+    width:100%;
+}
+
+hr{
+    border-top:1px solid #B1C5ED;
+}
+
+.swiss-nav-header {
+    background-color: #31456D;
+    padding:10px 10px 4px 10px;
+    color: white;
+    margin-bottom:30px;
+
+    button {
+        background-color: #5A6A8A;
+        border:0px;
+        > span {
+            color:white;
+        }
+        &:hover {
+            background-color:#5A6A8A;
+        }
+        &:active{
+            background-color:#5A6A8A;
+        }
+        &:focus{
+            background-color:#5A6A8A;
+        }
+    }
+
+    h4 {
+        color: white;
+    }
+}
+
+

@@ -5,113 +5,112 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE = edge" />
     <meta name="viewport" content="width = device-width, initial-scale = 1" />
-
-    <title>My Project</title>
-
     <link href="../assets/bootstrap-3.7.0/dist/css/bootstrap.min.css" rel="stylesheet" media="screen" />
-    <!--<link href="../External/bootstrap-3.2.0/docs/examples/dashboard/dashboard.css" rel="stylesheet" />-->
-    <link href="../css/style.css?v=2313" rel="stylesheet" />
+    <link href="../css/style.css?v=4" rel="stylesheet" />
 </head>
 <body>
     <div class="container-fluid">
+
         <div class="row">
             <div class="col-xs-12">
                 <header class="swiss-nav-header">
                     <div class="row">
                         <div class="col-xs-1">
-                            <button class="btn btn-default pull-left"><span class="glyphicon glyphicon-menu-left"></span></button>
+                            <button class="btn btn-default pull-left"><span class="glyphicon glyphicon-remove"></span></button>
                         </div>
                         <div class="col-xs-10 text-center">
-                            ACCOUNT EINSTELLUNGEN
+                            <h4>ACCOUNT EINSTELLUNGEN</h4>
                         </div>
                         <div class="col-xs-1">
-                            <button class="btn btn-default pull-right"><span class="glyphicon glyphicon-menu-right"></span></button>
+                            <button class="btn btn-default pull-right"><span class="glyphicon glyphicon-ok"></span></button>
                         </div>
                     </div>
                 </header>
             </div>
         </div>
-
-        <div class="form-group row">
-            <label class="col-xs-2 text-right  col-form-label">Vorname</label>
-            <div class="col-xs-10">
-                <input class="form-control" type="text" placeholder="m=Manfred B." />
-            </div>
-        </div>
-
-        <div class="form-group row">
-            <label class="col-xs-2 text-right  col-form-label">Nachname</label>
-            <div class="col-xs-10">
-                <input class="form-control" type="text" placeholder="Schludderer" />
-            </div>
-        </div>
-
-        <div class="form-group row">
-            <div class="col-xs-12">
-                <hr />
-            </div>
-        </div>
-
-        <div class="form-group row">
-            <label class="col-xs-2 text-right  col-form-label">E-Mail</label>
-            <div class="col-xs-9">
-                <input class="form-control" type="email" placeholder="manfred-schledderer@googlemail.com" />
-            </div>
-            <div class="col-xs-1">
-                <button class="btn btn-default"><span class="glyphicon-edit"></span></button> 
-            </div>
-        </div>
-
-        <div class="form-group row">
-            <div class="col-xs-12">
-                <hr />
-            </div>
-        </div>
-
-        <div class="form-group row">
-            <label class="col-xs-2 text-right  col-form-label">Nachname</label>
-            <div class="col-xs-10">
-                <input class="form-control" type="text" placeholder="Schludderer" />
-            </div>
-        </div>
-
-
-        <div class="form-group row">
-            <div class="col-xs-offset-2 col-xs-10">
-                <p>wer  er wer we wer er wer wererwe rwe r wwe rwe rwe we</p>
-            </div>
-        </div>
-
-        <div class="form-group row">
-            <div class="col-xs-12">
-                <hr />
-            </div>
-        </div>
-
-        <div class="form-group row">
-            <label class="col-xs-2 text-right  col-form-label">Passwort</label>
-            <div class="col-xs-10">
-                <input class="form-control" type="password" placeholder="Passwort" />
-            </div>
-        </div>
-
-        <div class="form-group row">
-
-            <label class="col-xs-2 text-right  col-form-label">Passwort</label>
-            <div class="col-xs-10">
-                <label class="form-check-label">
-                    <input class="form-check-input" type="checkbox" value="" />
-                    <b>SWISS FINDER</b> Neuigkeiten
-                </label>
-                <br />
-                <p>sfs sad sad ad as das das da d asd as das d asd a das d as </p>
+        <form class="form-horizontal">
+            <div class="form-group row">
+                <label class="col-xs-2 text-right control-label">Vorname</label>
+                <div class="col-xs-10">
+                    <input class="form-control" type="text" placeholder="Manfred B." />
+                </div>
             </div>
 
-            <div class="col-xs-12">
-                <label class="col-xs-2 col-form-label">Stabe</label>
-                
+            <div class="form-group row">
+                <label class="col-xs-2 text-right control-label">Nachname</label>
+                <div class="col-xs-10">
+                    <input class="form-control" type="text" placeholder="Schludderer" />
+                </div>
             </div>
-        </div>
+
+            <div class="form-group row">
+                <div class="col-xs-12">
+                    <hr />
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label class="col-xs-2 text-right control-label">E-Mail</label>
+                <div class="col-xs-10">
+
+                    <div class="row">
+                        <div class="col-xs-11">
+                            <input class="form-control" type="email" placeholder="manfred-schledderer@googlemail.com" />
+                        </div>
+                        <div class="col-xs-1">
+                            <img class="swissicon-edit" src="../images/edit.png" alt="" />
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-xs-12">
+                    <hr />
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label class="col-xs-2 text-right control-label">Nachname</label>
+                <div class="col-xs-10">
+                    <input class="form-control" type="text" placeholder="Schludderer" />
+                </div>
+            </div>
+
+
+            <div class="form-group row">
+                <div class="col-xs-offset-2 col-xs-10">
+                    <p>wer  er wer we wer er wer wererwe rwe r wwe rwe rwe we</p>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <div class="col-xs-12">
+                    <hr />
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label class="col-xs-2 text-right control-label">Passwort</label>
+                <div class="col-xs-10">
+                    <input class="form-control" type="password" placeholder="Passwort" />
+                </div>
+            </div>
+
+            <div class="form-group row">
+
+                <label class="col-xs-2 text-right control-label">Passwort</label>
+                <div class="col-xs-10">
+                    <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox" value="" />
+                        <b>SWISS FINDER</b> Neuigkeiten
+                    </label>
+                    <br />
+                    <p>sfs sad sad ad as das das da d asd as das d asd a das d as </p>
+                </div>
+            </div>
+        </form>
         <div class="form-group row">
             <div class="col-xs-12">
                 <hr />

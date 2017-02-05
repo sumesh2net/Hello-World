@@ -1,14 +1,19 @@
 ﻿
 .nav-sidebar {
     background-color: #30456C;
-    margin-left:-15px;
-    position:fixed;
-    height:100%;
-    width:250px;
+    margin-left: -15px;
+    position: fixed;
+    height: 100%;
+    width: 291px;
+
+    a {
+        color: white;
+    }
 }
 
 .swiss-login-name {
     padding: 10px;
+    color:white;
 }
 
     .swiss-login-name > div {
@@ -34,13 +39,28 @@
     padding:20px 0 15px 20px;
 }
 
-    .swiss-logo h2 {
-        margin-top: 0;
-    }
+.swiss-nav {
+    padding-left:0;
 
-    .swiss-logo small {
-        display:block;
-        position:relative;
-        top:-15px;
+    .nav-item {
+        padding: 10px 0 0 10px;
+        cursor:pointer;
+
+        a {
+            display: inline-block !important;
+            top: 2px;
+            padding:10px;
+            text-decoration:none;
+
+            &:hover {
+            }
+        }
+
+        img {
+            display: inline-block;
+        }
     }
+}
+
+
     
