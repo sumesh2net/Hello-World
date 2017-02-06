@@ -1,0 +1,9 @@
+.add-finder-row {
+  padding: 20px 0 20px 0;
+}
+.add-finder-row a {
+  text-decoration: underline;
+}
+.btn-continue {
+  width: 200px;
+}
