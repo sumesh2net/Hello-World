@@ -13,6 +13,9 @@ body.swiss-finder {
 }
 @media (min-width: 961px) {
   /* tablet, landscape iPad, lo-res laptops ands desktops */
+  .nav-sidebar-md {
+    width: 245px;
+  }
 }
 @media (min-width: 1025px) {
   /* big landscape tablets, laptops, and desktops */
@@ -20,6 +23,9 @@ body.swiss-finder {
   body,
   .swiss-container {
     height: auto;
+  }
+  .nav-sidebar-lg {
+    width: 291px;
   }
 }
 @media (min-width: 1281px) {
@@ -38,7 +44,7 @@ body.swiss-finder {
   margin-left: -15px;
   position: fixed;
   height: 100%;
-  width: 291px;
+  /*width: 291px;*/
 }
 .nav-sidebar a {
   color: white;
@@ -67,6 +73,7 @@ body.swiss-finder {
 }
 .swiss-nav {
   padding-left: 0;
+  list-style-type: none;
 }
 .swiss-nav .nav-item {
   padding: 10px 0 0 10px;
@@ -83,10 +90,10 @@ body.swiss-finder {
 }
 .swiss-container {
   background-color: #628AD7;
+  color: white;
 }
 .swiss-container-startpage-row {
   padding-top: 35px;
-  color: white;
 }
 .swiss-content-box {
   background-color: white;
@@ -123,6 +130,7 @@ body.swiss-finder {
   background-color: white;
   height: 300px;
   margin-bottom: 10px;
+  color: black;
 }
 .swiss-wrapper .img-request {
   display: block;
@@ -158,6 +166,9 @@ body.swiss-finder {
 .btn-continue {
   width: 200px;
 }
+hr {
+  border-color: #648CDC;
+}
 .swissicon-edit {
   background-color: lightgray;
   width: auto;
@@ -165,10 +176,53 @@ body.swiss-finder {
   border-radius: 5px;
   display: inline-block;
 }
+.swiss-icon {
+  width: 30px;
+}
+.swiss-icon.medium {
+  width: 30px;
+}
+.swiss-icon.small {
+  width: 25px;
+}
+.cust-details-box p span {
+  display: inline-block;
+  width: 150px;
+}
+.cust-info {
+  display: inline-block;
+  position: relative;
+  top: 10px;
+  left: 5px;
+}
+.p-t-20 {
+  padding-top: 20px;
+}
+.swiss-reserve-row {
+  padding: 25px 15px 0 15px;
+}
+.swiss-reserve-box {
+  background-color: white;
+  color: black;
+}
+.swiss-biometric-box {
+  padding: 25px;
+  background-color: #4FD084;
+}
+.find-details-link {
+  position: relative;
+  top: 10px;
+  color: white;
+  text-decoration: underline;
+}
 .full-width {
   width: 100%;
 }
-hr {
+.control-label {
+  font-weight: normal;
+  color: gray;
+}
+hr.light {
   border-top: 1px solid #B1C5ED;
 }
 .swiss-nav-header {
@@ -176,6 +230,7 @@ hr {
   padding: 10px 10px 4px 10px;
   color: white;
   margin-bottom: 30px;
+  min-width: 450px;
 }
 .swiss-nav-header button {
   background-color: #5A6A8A;
@@ -195,4 +250,7 @@ hr {
 }
 .swiss-nav-header h4 {
   color: white;
+}
+.swiss-allergie-container > div {
+  padding: 0 0 5px 0;
 }

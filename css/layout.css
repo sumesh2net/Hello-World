@@ -9,6 +9,9 @@
 }
 @media (min-width: 961px) {
   /* tablet, landscape iPad, lo-res laptops ands desktops */
+  .nav-sidebar-md {
+    width: 245px;
+  }
 }
 @media (min-width: 1025px) {
   /* big landscape tablets, laptops, and desktops */
@@ -16,6 +19,9 @@
   body,
   .swiss-container {
     height: auto;
+  }
+  .nav-sidebar-lg {
+    width: 291px;
   }
 }
 @media (min-width: 1281px) {

@@ -1,0 +1,39 @@
+.swiss-icon {
+  width: 30px;
+}
+.swiss-icon.medium {
+  width: 30px;
+}
+.swiss-icon.small {
+  width: 25px;
+}
+.cust-details-box p span {
+  display: inline-block;
+  width: 150px;
+}
+.cust-info {
+  display: inline-block;
+  position: relative;
+  top: 10px;
+  left: 5px;
+}
+.p-t-20 {
+  padding-top: 20px;
+}
+.swiss-reserve-row {
+  padding: 25px 15px 0 15px;
+}
+.swiss-reserve-box {
+  background-color: white;
+  color: black;
+}
+.swiss-biometric-box {
+  padding: 25px;
+  background-color: #4FD084;
+}
+.find-details-link {
+  position: relative;
+  top: 10px;
+  color: white;
+  text-decoration: underline;
+}
